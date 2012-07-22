@@ -1,0 +1,133 @@
+[{
+	"name": "jesus",
+	"title": "Jesus",
+	"desc": "Efter tre drag kommer\npjäsen tillbaka till boet.",
+	"when": "end-of-life",
+	"count": 1
+},{
+	"name": "julius",
+	"title": "Julius",
+	"desc": "Ta ett extra ärevarv.\nFlytta pjäsen till start-rutan.",
+	"when": "end-of-life",
+	"count": 1
+},{
+	"name": "chameleon",
+	"title": "Kameleont",
+	"desc": "Rotera brädet ett kvarts\nvarv i spelets riktning. Alla får\nnya pjäser och kort.",
+	"when": "end-of-turn",
+	"count": 1
+},{
+	"name": "nuclear",
+	"title": "Atomkraft",
+	"desc": "Atomkraftolycka!\nAlla pjäser i spel går\ntillbaka till boet.",
+	"when": "instantly",
+	"count": 1
+},{
+	"name": "u-turn",
+	"title": "Vänd om",
+	"desc": "Ändra spelordningen från\nmotsols till medsols\neller vice versa.",
+	"when": "begining-of-turn",
+	"count": 2
+},{
+	"name": "switcher",
+	"title": "Byt pjäsen",
+	"desc": "Byt en egen pjäs från boet\nmed en egen i korgen.",
+	"when": "begining-of-turn",
+	"count": 2
+},{
+	"name": "overtake",
+	"title": "Omkörning",
+	"desc": "När kortet används kan\ndu köra om en blockad.",
+	"when": "after-dice",
+	"count": 2
+},{
+	"name": "water",
+	"title": "Vatten",
+	"desc": "Välj en spelare som går och dricker\nett glas vatten. De andra spelar\nvidare utan den spelaren.",
+	"when": "end-of-turn",
+	"count": 2
+},{
+	"name": "take-a-card",
+	"title": "Ta ett kort",
+	"desc": "Ta ett valfritt kort från\nen valfri annan spelare.\n(de visar dig baksidan)",
+	"when": "begining-of-turn",
+	"count": 2
+},{
+	"name": "carpooling",
+	"title": "Samåkning",
+	"desc": "Flytta två eller fler av\ndina pjäser som står på\nsamma ruta.",
+	"when": "after-dice",
+	"count": 2
+},{
+	"name": "back-stabber",
+	"title": "Rygghuggaren",
+	"desc": "Slå ut en valfri pjäs från brädet.",
+	"when": "anytime",
+	"count": 2
+},{
+	"name": "mine",
+	"title": "Mina",
+	"desc": "Pjäserna på rutan och de runtom slås\nut och åker tillbaka till boet.",
+	"when": "instantly",
+	"count": 2
+},{
+	"name": "i-choose-you",
+	"title": "Jag väljer dig",
+	"desc": "Välj vilken pjäs en annan\nspelare ska gå med i detta drag.",
+	"when": "begining-of-turn",
+	"count": 2
+},{
+	"name": "first-aid",
+	"title": "Första hjälpen",
+	"desc": "Återuppliva en pjäs som\nblev utslagen i detta drag.",
+	"when": "end-of-turn",
+	"count": 3
+},{
+	"name": "gubben",
+	"title": "Den gubben\ngår inte",
+	"desc": "Annulera turen.\nTuren går vidare.",
+	"when": "end-of-turn",
+	"count": 3
+},{
+	"name": "deploy",
+	"title": "Deploy!",
+	"desc": "Skicka ut en pjäs från\nboet direkt in i spelet.",
+	"when": "anytime",
+	"count": 3
+},{
+	"name": "my-turn",
+	"title": "Min tur",
+	"desc": "Det blir din tur\npå direkten.",
+	"when": "begining-of-turn",
+	"count": 3
+},{
+	"name": "teleporter",
+	"title": "Teleportern",
+	"desc": "Byt plats på två valfria\npjäser ute på spelplan.",
+	"when": "begining-of-turn",
+	"count": 3
+},{
+	"name": "all-seeing-eye",
+	"title": "Allseende ögat",
+	"desc": "Välj en spelare som visar\ndig sina kort.",
+	"when": "anytime",
+	"count": 3
+},{
+	"name": "repeat",
+	"title": "Gör om\nGör rätt",
+	"desc": "Börja om senaste draget",
+	"when": "end-of-turn",
+	"count": 4
+},{
+	"name": "stop",
+	"title": "Stopp där",
+	"desc": "Hoppa över denna tur.",
+	"when": "begining-of-turn",
+	"count": 4
+},{
+	"name": "stone",
+	"title": "Sa'ru sten?",
+	"desc": "Blockera de senast lagda kortet.\n(fungerar ej på kort som auto-\nmatiskt spelas på direkten)",
+	"when": "anytime",
+	"count": 4
+}]
