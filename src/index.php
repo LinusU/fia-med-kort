@@ -1,6 +1,8 @@
 <?php
 
-$cards = json_decode(file_get_contents("cards.json"));
+if(!isset($argv[1])) {
+	die('Usage: ' . basename($argv[0]) . ' <expansion>' . PHP_EOL);
+}
 
 function when($when) {
 	switch($when) {
@@ -15,12 +17,17 @@ function when($when) {
 }
 
 $total = 0;
-$offset = (isset($_GET['offset'])?$_GET['offset']:0);
+$offset = 0;
+$name = $argv[1];
+$base = dirname(__FILE__);
+
+$cards = json_decode(file_get_contents($base . "/" . $name . "/cards.json"));
 
 ?>
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8"> 
 	<title>Fia med Kort</title>
 	<link rel="stylesheet" type="text/css" href="main.css" />
 </head>
@@ -35,7 +42,7 @@ $offset = (isset($_GET['offset'])?$_GET['offset']:0);
 
 		<h1><?php echo $card->title; ?></h1>
 
-		<div class="img"><img src="img/<?php echo $card->name; ?>.png" /></div>
+		<div class="img"><img src="<?php echo ($name . "/img/" . $card->name . ".png"); ?>" /></div>
 		<div class="desc"><?php echo $card->desc; ?></div>
 		<div class="when"><?php echo when($card->when); ?></div>
 

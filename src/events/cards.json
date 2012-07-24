@@ -1,0 +1,55 @@
+[{
+	"name": "v",
+	"title": "V",
+	"desc": "Du hittar en enrgidryck,\nadvancera 12 steg.",
+	"count": 1,
+	"when": "instantly"
+},{
+	"name": "roadwork",
+	"title": "Vägarbete",
+	"desc": "Här var det vägarbete.\nDenna pjäs kan inte flytta\nförrän efter ditt nästa drag.",
+	"count": 1,
+	"when": "instantly"
+},{
+	"name": "aliens",
+	"title": "Aliens!",
+	"desc": "Din pjäs blir bortrövad av\naliens, han går ut ur spelet.",
+	"count": 1,
+	"when": "instantly"
+},{
+	"name": "slippery-road",
+	"title": "Slirig väg",
+	"desc": "Din pjäs kör av vägen och\nåker ambulans tillbaka till boet.",
+	"count": 1,
+	"when": "instantly"
+},{
+	"name": "",
+	"title": "",
+	"desc": "",
+	"count": 0,
+	"when": "instantly"
+},{
+	"name": "",
+	"title": "",
+	"desc": "",
+	"count": 0,
+	"when": "instantly"
+},{
+	"name": "",
+	"title": "",
+	"desc": "",
+	"count": 0,
+	"when": "instantly"
+},{
+	"name": "",
+	"title": "",
+	"desc": "",
+	"count": 0,
+	"when": "instantly"
+},{
+	"name": "",
+	"title": "",
+	"desc": "",
+	"count": 0,
+	"when": "instantly"
+}]
