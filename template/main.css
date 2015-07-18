@@ -1,16 +1,30 @@
+<%- phantomBugMagic = 0.82 %>
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/sVvvcJDRTINJla2R4XwPVevvDin1pK8aKteLpeZ5c0A.ttf) format('truetype');
+}
+
 body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 10pt;
+}
+
+.card-wrapper {
+	/* Stupid phantomjs bugfix */
+	float: left;
+	border: 1px solid gray;
+	width: <%= (58 * phantomBugMagic) %>mm;
+	height: <%= (79 * phantomBugMagic) %>mm;
 }
 
 .card {
 	width: 58mm;
 	height: 79mm;
-	float: left;
-	margin: 0px;
-	border: 1px solid gray;
 	background-color: white;
 	text-align: center;
 	page-break-inside: avoid;
@@ -18,9 +32,8 @@ body {
 	-webkit-flex-direction: column;
 
 	/* Stupid phantomjs bugfix */
-	-webkit-transform: scale(0.75);
-	margin-right: -14.5mm;
-	margin-bottom: -19.75mm;
+	-webkit-transform: scale(<%= (phantomBugMagic) %>);
+	-webkit-transform-origin: left top;
 }
 
 .card h1,

@@ -10,17 +10,17 @@
 <body>
 
 	<% cards.forEach(function (card) { %>
+		<div class="card-wrapper">
+			<div class="card">
 
-		<div class="card">
+				<h1><%= card.title %></h1>
 
-			<h1><%= card.title %></h1>
+				<div class="img"><img src="<%= card.imagePath %>" /></div>
+				<div class="desc"><%= card.description %></div>
+				<div class="when"><%= card.when %></div>
 
-			<div class="img"><img src="<%= card.imagePath %>" /></div>
-			<div class="desc"><%= card.description %></div>
-			<div class="when"><%= card.when %></div>
-
+			</div>
 		</div>
-
 	<% }) %>
 
 	<!-- Number of cards: <%= cards.length %> -->

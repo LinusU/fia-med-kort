@@ -2,7 +2,7 @@
   "name": "fia-med-kort",
   "version": "0.0.0",
   "devDependencies": {
-    "render-webpage": "^0.1.0"
+    "render-webpage": "^0.1.1"
   },
   "scripts": {
     "build": "./build.js"
