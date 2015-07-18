@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fia med Kort</title>
+	<style type="text/css">
+		<%- include('main.css') %>
+	</style>
+</head>
+<body>
+
+	<% cards.forEach(function (card) { %>
+
+		<div class="card">
+
+			<h1><%= card.title %></h1>
+
+			<div class="img"><img src="<%= card.imagePath %>" /></div>
+			<div class="desc"><%= card.description %></div>
+			<div class="when"><%= card.when %></div>
+
+		</div>
+
+	<% }) %>
+
+	<!-- Number of cards: <%= cards.length %> -->
+
+</body>

@@ -1,0 +1,14 @@
+{
+  "name": "fia-med-kort",
+  "version": "0.0.0",
+  "devDependencies": {
+    "render-webpage": "^0.1.0"
+  },
+  "scripts": {
+    "build": "./build.js"
+  },
+  "dependencies": {
+    "ejs": "^2.3.3",
+    "fs-temp": "^0.1.2"
+  }
+}
