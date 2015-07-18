@@ -1,0 +1,109 @@
+[{
+	"name": "bomb",
+	"title": "Bomberman",
+	"desc": "Bomberman bomb. Alla \npjäser i x och y riktning \nfrån din valda pjäs inklusive\n dig själv dör.",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "hypno-shroom",
+	"title": "Hypno-shroom",
+	"desc": "Använd denna svamp för \natt få en vald pjäs att \ngå åt andra hållet.",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "golden-hammer",
+	"title": "Golden Hammer",
+	"desc": "Alla pjäser du passerar \ndenna tur åker tillbaka \ntill boet",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "cloaking",
+	"title": "Cloaking",
+	"desc": "Din pjäs blir osynlig och \nkan därför inte bli utslagen. \nKortet varar en runda.",
+	"count": 1,
+	"when": "anytime"
+},{
+	"name": "glue-gunner",
+	"title": "Glue gunner",
+	"desc": "Du skjuter lim på en valfri \npjäs. Pjäsen går endast hälften \nav vad tärningen visar avrundat \nnedåt i tre rundor.",
+	"count": 1,
+	"when": "anytime"
+},{
+	"name": "slice-n-dice",
+	"title": "Slice n' dice",
+	"desc": "Slå med tärningen, om du får\n 1 till 3 så får du slica en valfri\n pjäs (den blir utslagen). Annars \n träffar du en bomb och alla dina \npjäser blir utslagna.",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "pidgey",
+	"title": "Pidgey use fly!",
+	"desc": "Du flyger på din pidgey, \navansera 8 steg.",
+	"count": 1,
+	"when": "end-of-turn"
+},{
+	"name": "surgeon-simulator",
+	"title": "SS 2013",
+	"desc": "Du misslyckas totalt med första\n hjälpen! Pjäsen kommer att gå ett\n steg mindre resten av spelet. Kan\n bara användas mot första hjälpen.",
+	"count": 1,
+	"when": "anytime"
+},{
+	"name": "mega-mushroom",
+	"title": "Mega shroom",
+	"desc": "Din pjäs äter en mega mushroom\n och blockerar vägen.\n Kortet varar 2 varv.",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "expelliarmus",
+	"title": "Expelliarmus",
+	"desc": "Desarmera ryttaren från sin häst.\n Ryttaren blir till en vanlig pjäs.",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "inception",
+	"title": "Inception",
+	"desc": "Senaste draget var bara en dröm.\n Flytta tillbaka allt.",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "titanic",
+	"title": "Titanic",
+	"desc": "Alla spelare får välja två\n pjäser som får plats i livbåtarna.\n Resten slås ut.",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "lightsaber",
+	"title": "Lightsaber",
+	"desc": "Använd ett lasersvärd för att\n döda en spelare bredvid dig.",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "game-of-thrones",
+	"title": "Nej, min favo",
+	"desc": "Den viktigast pjäsen dör.\n (den som kommit längst)",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "delorean",
+	"title": "Marty McFly",
+	"desc": "Vi går in i framtiden, \nalla pjäser går 5 steg framåt.",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "minion",
+	"title": "Minion",
+	"desc": "Alla pjäser går det du slår.",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "do-the-batman",
+	"title": "Do the Batman",
+	"desc": "Använd batmans fladdermöss\n för att deploya din gubbe\n på en av de fem första rutorna.",
+	"count": 1,
+	"when": "begining-of-turn"
+},{
+	"name": "hal-9000",
+	"title": "HAL 9000",
+	"desc": "I'm sorry Dave, i'm afraid \nI can't let you do that! \nMotståndarens kort stoppas.",
+	"count": 1,
+	"when": "anytime"
+}]

@@ -18,5 +18,6 @@ if (process.argv[2]) {
   render(process.argv[2], done)
 } else {
   render('base', done)
+  render('games', done)
   render('events', done)
 }
