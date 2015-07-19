@@ -1,13 +1,13 @@
 [{
 	"name": "v",
 	"title": "V",
-	"desc": "Du hittar en enrgidryck,\nadvancera 12 steg.",
+	"desc": "Du hittar en energidryck,\navanscera 12 steg.",
 	"count": 1,
 	"when": "instantly"
 },{
 	"name": "roadwork",
 	"title": "Vägarbete",
-	"desc": "Här var det vägarbete.\nDenna pjäs kan inte flytta\nförrän efter ditt nästa drag.",
+	"desc": "Här är det vägarbete.\nDenna pjäs kan inte flytta\nförrän efter ditt nästa drag.",
 	"count": 1,
 	"when": "instantly"
 },{
